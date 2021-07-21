@@ -1,0 +1,14 @@
+[GLOBAL]
+pants_version = "2.7.0.dev1"
+backend_packages = [
+    "pants.backend.python",
+]
+
+[source]
+root_patterns = ['/minimalcov']
+
+[test]
+use_coverage = true
+
+[coverage-py]
+report = ["html"]
